@@ -1,0 +1,55 @@
+// import "./assets/plugins/simplebar/css/simplebar.css";
+// import "./assets/plugins/perfect-scrollbar/css/perfect-scrollbar.css";
+// import "./assets/plugins/metismenu/css/metisMenu.min.css";
+
+ 
+
+// import "./assets/css/bootstrap.scss";
+// import "./assets/css/app.css";
+// import "./assets/css/icons.css";
+
+// import "./assets/css/dark-theme.css";
+// import "./assets/css/semi-dark.css";
+// import "./assets/css/header-colors.css";
+// import "./assets/js/bootstrap.bundle.min.js";
+
+@import '../css/bootstrap.scss';
+@import '../css/app.css';
+@import '../css/icons.css';
+@import '../css/dark-theme.css';
+@import '../css/header-colors.css';
+@import "./variable";
+ 
+
+
+.btn-primary {
+    background-color: $color-primary;
+    border-color: $color-primary
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: $color-primary-over;
+    border-color: $color-primary-over;
+}
+
+.btn{
+    line-height: 1.8
+}
+
+.sidebar-wrapper .metismenu .mm-active>a,
+.sidebar-wrapper .metismenu a:active,
+.sidebar-wrapper .metismenu a:focus,
+.sidebar-wrapper .metismenu a:hover {
+    color: $color-primary;
+    text-decoration: none;
+    background: white;
+}
+
+.logo-text {
+    font-size: 22px;
+    margin-left: 10px;
+    margin-bottom: 0;
+    letter-spacing: 1px;
+    color: $color-primary
+}

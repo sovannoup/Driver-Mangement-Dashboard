@@ -1,0 +1,56 @@
+{
+  "name": "web-backend-ecommerce-online-shop-standard",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "staging": "vue-cli-service build --mode staging"
+  },
+  "dependencies": {
+    "@vee-validate/i18n": "^4.4.7",
+    "@vee-validate/rules": "^4.4.7",
+    "@vueform/multiselect": "^2.2.0",
+    "@vueform/toggle": "^2.0.1",
+    "animate.css": "^4.1.1",
+    "apexcharts": "^3.30.0",
+    "autoprefixer": "^9.8.8",
+    "axios": "^0.21.4",
+    "cropperjs": "^1.5.12",
+    "element-plus": "^1.3.0-beta.9",
+    "metismenujs": "^1.3.1",
+    "moment": "^2.29.1",
+    "notyf": "^3.10.0",
+    "pug": "^3.0.2",
+    "pug-plain-loader": "^1.1.0",
+    "sweetalert2": "^11.1.9",
+    "vee-validate": "^4.5.0-alpha.6",
+    "vue": "^3.0.0",
+    "vue-i18n": "^9.2.0-beta.12",
+    "vue-router": "^4.0.0-0",
+    "vue3-apexcharts": "^1.4.1",
+    "vue3-date-time-picker": "^2.6.0",
+    "vue3-google-map": "^0.8.3",
+    "vue3-lazyload": "^0.2.2-beta",
+    "vue3-perfect-scrollbar": "^1.5.5",
+    "vue3-popper": "^1.3.0",
+    "vuex": "^4.0.0-0",
+    "vuex-persistedstate": "^4.0.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0",
+    "sass": "^1.43.4",
+    "sass-loader": "^10.2.0",
+    "vue-loader": "17.0.0",
+    "vue-template-compiler": "^2.6.14"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}

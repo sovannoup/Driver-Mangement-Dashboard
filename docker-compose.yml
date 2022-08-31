@@ -1,0 +1,12 @@
+version: "3"
+services:
+  app:
+    build: .
+    image: ecommer-web-admin 
+    ports:
+      - "8080:8080"
+    expose:
+      - "8080"
+networks:
+   app-network:
+    driver: bridge
